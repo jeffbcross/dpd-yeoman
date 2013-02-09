@@ -1,0 +1,3 @@
+var deployd = require('deployd');
+
+module.exports = deployd;
