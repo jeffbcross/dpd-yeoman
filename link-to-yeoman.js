@@ -15,14 +15,17 @@ console.info('yeoman', yeoman);
 var generators = path.resolve(yeoman, 'node_modules', 'yeoman-generators', 'lib', 'generators');
 if (fs.existsSync(generators)) {
 	console.log("Applying symlink to ", generators);
-	/*fs.symlink('./', path.resolve(generators, 'deployd'), 'dir', function (e) {
+	fs.symlink(__dirname, path.resolve(generators, 'deployd'), 'dir', function (e) {
 		if (e) {
-			console.error(e);
+			console.error("Error creating symlink");
+			if (e.errno === 47) {
+				console.info("Symlink already exists");
+			}
 		}
 		else {
 			console.info("Successfully added the deployd generator to yeoman");
 		}
-	});*/
+	});
 }
 else {
 	console.error("Couldn't find the Yeoman generators path to symlink.");

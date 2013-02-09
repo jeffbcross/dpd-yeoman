@@ -26,7 +26,8 @@
     "server"
   ],
   "dependencies" : {
-  	"deployd" : "0.6.10"
+  	"deployd" : "0.6.10",
+  	"yeoman" : "0.9.6"
   },
   "analyze": false,
   "devDependencies": {},
