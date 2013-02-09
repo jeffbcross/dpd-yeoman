@@ -1,0 +1,38 @@
+{
+  "name": "dpd-yeoman",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "author": "Jeff Cross",
+  "description": "A Yeoman generator to stub & scaffold deployd APIs.",
+  "contributors": [ 
+    {
+      "name": "Jeff Cross",
+      "email": "middlefloor@gmail.com"
+    } 
+  ],
+  "scripts": {
+    "install": "node link-to-yeoman.js"
+  },
+  "main": "./all",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffbcross/dpd-yeoman"
+  },
+  "keywords": [
+    "generator",
+    "yeoman",
+    "deployd",
+    "http",
+    "server"
+  ],
+  "dependencies" : {
+  	"deployd" : "0.6.10"
+  },
+  "analyze": false,
+  "devDependencies": {},
+  "bundledDependencies": [],  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
