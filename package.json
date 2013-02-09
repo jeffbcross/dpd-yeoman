@@ -27,7 +27,7 @@
   ],
   "dependencies" : {
   	"deployd" : "0.6.10",
-  	"yeoman" : "0.9.6"
+  	"yeoman" : "https://github.com/yeoman/yeoman/archive/0.9.6.tar.gz"
   },
   "analyze": false,
   "devDependencies": {},
