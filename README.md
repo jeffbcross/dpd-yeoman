@@ -6,12 +6,18 @@
 
 Active Development
 
+## Dependencies
+
+ * [MongoDB](http://mongodb.org)
+ * [Node](http://nodejs.org)
+ * [Yeoman](http://yeoman.io)
+
 ## Quick Start
 
-	npm install -g yeoman
 	npm install -g dpd-yeoman
 	mkdir myapp
 	cd myapp
 	yeoman init angular
 	yeoman init deployd
+	mongod
 	node server
