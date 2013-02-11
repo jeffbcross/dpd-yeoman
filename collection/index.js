@@ -17,7 +17,6 @@ Generator.prototype.createCollectionResource = function() {
   	,	properties = {};
 
   if (this.args.length) {
-  	console.log('args.length', this.args.length);
   	this.args.forEach(function (prop, i) {
   		if (i == 0) return; //Don't care about the name
   		var propName = prop.split(":")[0]
