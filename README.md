@@ -14,13 +14,14 @@ In-Development, waiting for Yeoman 1.0 generator API to be more clearly document
 
 ## Quick Start
 
-	npm install -g dpd-yeoman
-	mkdir myapp
-	cd myapp
-	yeoman init angular
-	yeoman init deployd
-	yeoman init deployd:collection title:string description:string
-	mongod
-	node server
-	Open localhost:3501 in your browser to see the app
-	Open localhost:3501/dashboard to see the deployd dashboard.
+	$ npm install -g dpd-yeoman
+	$ mkdir myapp
+	$ cd myapp
+	$ yeoman init
+	$ yeoman init deployd
+	$ yeoman init deployd:collection title:string description:string
+	$ mongod
+	$ node server
+	
+	# Open localhost:3501 in your browser to see the app
+	# Open localhost:3501/dashboard to see the deployd dashboard.
