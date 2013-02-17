@@ -4,7 +4,7 @@
 
 ## Status
 
-Active Development
+In-Development, waiting for Yeoman 1.0 generator API to be more clearly documented.
 
 ## Dependencies
 
